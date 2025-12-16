@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Restaurant</title>
+
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="menu.html/contact.html" rel="stylesheet">
+
+  <style>
+    .card:hover {
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+
+<!--Header-->
+  <header>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="#">Fresh Bites</a>
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="menu.html">Menu</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+</header>
+
+<!--Main-->
+<main>
+    <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
+  <li class="nav-item" role="presentation">
+    <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Burgers</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="italian-tab" data-bs-toggle="tab" data-bs-target="#italian-tab-pane" type="button" role="tab" aria-controls="italian-tab-pane" aria-selected="false">Italian</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Fries</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="chinese-tab" data-bs-toggle="tab" data-bs-target="#chinese-tab-pane" type="button" role="tab" aria-controls="chinese-tab-pane" aria-selected="false">Chinese</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="steak-tab" data-bs-toggle="tab" data-bs-target="#steak-tab-pane" type="button" role="tab" aria-controls="steak-tab-pane" aria-selected="false">Steak</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="mocktails-tab" data-bs-toggle="tab" data-bs-target="#mocktails-tab-pane" type="button" role="tab" aria-controls="mocktails-tab-pane" aria-selected="false">Mocktails</button>
+  </li>
+</ul>
+<div class="tab-content" id="myTabContent">
+
+  <!--Burger-->
+  <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+
+    <div class="row d-flex justify-content-center mt-4 mb-4 gap-4">
+
+<div class="card" style="width: 18rem;">
+  <img src="Assets/Img/burger2.webp" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title text-center"><strong>SIRACHA BURGER</strong> Rs. 420</h5>
+    <p class="card-text text-center">Our spicy take on value burger made from crunchy chicken fillet (chest pc), Spicy sauce, & lettuce.</p>
+    <a href="#" class="btn btn-outline-danger">Add</a>
+  </div>
+</div>
+
+ <div class="card" style="width: 18rem;">
+  <img src="Assets/Img/burger1.webp" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title text-center"><strong>THE MAJESTY</strong> Rs. 770</h5>
+    <p class="card-text text-center">Double crispy chicken patty with double goodness, along with a tinge of spicy goodness stuffed in a a burger. A huge burger to satisfy your hunger.</p>
+    <a href="#" class="btn btn-outline-danger">Add</a>
+  </div>
+</div>
+
+<div class="card" style="width: 18rem;">
+  <img src="Assets/Img/burger3.webp" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title text-center"><strong>Spicy Zenga Burger</strong> Rs. 650</h5>
+    <p class="card-text text-center">Known for its bold, spicy flavors! Crispy, juicy scrumptious chicken patty (Thigh pc) along with lettuce and spicy siracha sauce enclosed in hot airy buns.</p>
+    <a href="#" class="btn btn-outline-danger">Add</a>
+  </div>
+</div>
+
+</div>
+
+  </div>
+
+  <!--Italian-->
+  <div class="tab-pane fade" id="italian-tab-pane" role="tabpanel" aria-labelledby="italian-tab" tabindex="0">
+
+    <div class="row d-flex justify-content-center gap-4 mt-4 mb-4">
+
+    <div class="card" style="width: 18rem;">
+  <img src="Assets/Img/italian1.webp" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title text-center"><strong>Spicy Chicken Alfredo</strong> Rs. 1595</h5>
+    <p class="card-text text-center">A Classic Alfredo with a Kick of Spices.</p>
+    <a href="#" class="btn btn-outline-danger">Add</a>
+  </div>
+</div>
+
+<div class="card" style="width: 18rem;">
+  <img src="Assets/Img/italian2.webp" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title text-center"><strong>Spicy Shrimp Fettuccine</strong> Rs. 1595</h5>
+    <p class="card-text text">A creamy alferado fettuccine spiced with seasoning served with packed flavored shrimp.</p>
+    <a href="#" class="btn btn-outline-danger">Add</a>
+  </div>
+</div>
+
+<div class="card" style="width: 18rem;">
+  <img src="Assets/Img/italian3.webp" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title text-center"><strong>Pesto Chicken Pasta</strong> Rs. 1595</h5>
+    <p class="card-text text-center">Flavorful chicken along with moist pasta, with creamy green pesto sauce.</p>
+    <a href="#" class="btn btn-outline-danger">Add</a>
+  </div>
+</div>
+
+</div>
+
+  </div>
+
+  <!--Fries-->
+  <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
+
+    <div class="row d-flex justify-content-center gap-4 mt-4 mb-4">
+
+    <div class="card" style="width: 18rem;">
+  <img src="Assets/Img/fries1.webp" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title text-center"><strong>French Fries</strong> Rs. 499</h5>
+    <p class="card-text text-center">Crisp to teeth, our in house made French fries.</p>
+    <a href="#" class="btn btn-outline-danger">Add</a>
+  </div>
+</div>
+
+<div class="card" style="width: 18rem;">
+  <img src="Assets/Img/fries2.webp" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title text-center"><strong>Mayo Garlic Fries</strong> Rs. 499</h5>
+    <p class="card-text text-center">Crispy fries drizzled with mayo garlic sauce.</p>
+    <a href="#" class="btn btn-outline-danger">Add</a>
+  </div>
+</div>
+
+<div class="card" style="width: 18rem;">
+  <img src="Assets/Img/fries3.webp" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title text-center"><strong>Masala Fries</strong> Rs.499</h5>
+    <p class="card-text text-center">Crispy fries tossed in hot and spicy spices.</p>
+    <a href="#" class="btn btn-outline-danger">Add</a>
+  </div>
+</div>
+
+</div>
+
+  </div>
+
+  <!--Chinese-->
+  <div class="tab-pane fade" id="chinese-tab-pane" role="tabpanel" aria-labelledby="chinese-tab" tabindex="0">
+
+    <div class="row d-flex justify-content-center mt-4 mb-4 gap-4">
+
+    <div class="card" style="width: 18rem;">
+  <img src="Assets/Img/chinese1.webp" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title text-center"><strong>Chicken Chili Dry With Fried Rice</strong> Rs. 1799</h5>
+    <p class="card-text text-center">Sliced chicken along with green chilies, served dry along with stir fried vegetable rice.</p>
+    <a href="#" class="btn btn-outline-danger">Add</a>
+  </div>
+</div>
+
+<div class="card" style="width: 18rem;">
+  <img src="Assets/Img/chinese2.webp" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title text-center"><strong>Chicken Manchurian With Fried Rice (Spicy)</strong> Rs. 1799</h5>
+    <p class="card-text text-center">Cube chicken tossed in a sweet tangy but balance flavored sauce, served with stir fried rice.</p>
+    <a href="#" class="btn btn-outline-danger">Add</a>
+  </div>
+</div>
+
+<div class="card" style="width: 18rem;">
+  <img src="Assets/Img/chinese3.webp" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title text-center"><strong>Prawn Manchurian With Fried Rice</strong> Rs. 1899</h5>
+    <p class="card-text text-center">Prawn tossed in a sweet tangy but balance flavored sauce, served with stir fried rice.</p>
+    <a href="#" class="btn btn-outline-danger">Add</a>
+  </div>
+</div>
+
+
+
+</div>
+
+  </div>
+
+  <!--Steak-->
+  <div class="tab-pane fade" id="steak-tab-pane" role="tabpanel" aria-labelledby="steak-tab" tabindex="0">
+
+    <div class="rox d-flex justify-content-center gap-4 mt-4 mb-4">
+
+    <div class="card" style="width: 18rem;">
+  <img src="Assets/Img/steak1.webp" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title text-center"><strong>Moroccan Steak (Beef)</strong> Rs. Rs. 2665</h5>
+    <p class="card-text text-center">Beef fillet marinated in Moroccan inspired spice rubs and creamy based sauce served with sideline of your choice and vegetable on a sizzling platter.</p>
+    <a href="#" class="btn btn-outline-danger">Add</a>
+  </div>
+</div>
+
+<div class="card" style="width: 18rem;">
+  <img src="Assets/Img/steak2.webp" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title text"><strong>Hawaiian Steak (Beef)</strong> Rs. 2665</h5>
+    <p class="card-text text-center">Beef fillet marinated in a mushroom creamy sauce, topped with pineapple and slice cheese, served with a sideline of your choice and vegetable on sizzling platter</p>
+    <a href="#" class="btn btn-outline-danger">Add</a>
+  </div>
+</div>
+
+<div class="card" style="width: 18rem;">
+  <img src="Assets/Img/steak3.webp" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title text-center"><strong>Mushroom Steak (Beef)</strong> Rs. 2665</h5>
+    <p class="card-text text-center">Beef fillet marinated in mushroom creamy sauce, topped with mushrooms sautéed to perfection, served with sideline of your choice and vegetable on sizzling platter.</p>
+    <a href="#" class="btn btn-outline-danger">Add</a>
+  </div>
+</div>
+
+</div>
+
+  </div>
+
+  <!--Mocktails-->
+  <div class="tab-pane fade" id="mocktails-tab-pane" role="tabpanel" aria-labelledby="mocktails-tab" tabindex="0">
+
+    <div class="row d-flex justify-content-center gap-4 mt-4 mb-4">
+
+    <div class="card" style="width: 18rem;">
+  <img src="Assets/Img/mocktails1.webp" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title text-center"><strong>Kisses</strong> Rs. 599</h5>
+    <p class="card-text text-center">A perfect blend of strawberries with sourness of lime.</p>
+    <a href="#" class="btn btn-outline-danger">Add</a>
+  </div>
+</div>
+
+<div class="card" style="width: 18rem;">
+  <img src="Assets/Img/mocktail2.webp" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title text-center"><strong>White Colada</strong> Rs. 599</h5>
+    <p class="card-text text-center">Excellent brew of pineapple and coconut</p>
+    <a href="#" class="btn btn-outline-danger">Add</a>
+  </div>
+</div>
+
+<div class="card" style="width: 18rem;">
+  <img src="Assets/Img/mocktail3.webp" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title text-center"><strong>Grape Wine</strong> Rs. 599</h5>
+    <p class="card-text text-center">Fusion of grape apple and lime juice</p>
+    <a href="#" class="btn btn-outline-danger">Add</a>
+  </div>
+</div>
+
+</div>
+
+  </div>
+
+</div>
+
+</main>
+
+<!--Footer-->
+    <footer class="bg-dark text-light pt-5 pb-3">
+  <div class="container">
+    <div class="row gy-4">
+
+      <!-- Brand -->
+      <div class="col-md-3">
+        <h4 class="text-warning">FreshBite</h4>
+        <p>Your go-to spot for quick, tasty, and fresh meals.</p>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="col-md-3">
+        <h5 class="text-warning mb-3">Quick Links</h5>
+        <ul class="list-unstyled">
+          <li><a href="#" class="text-light text-decoration-none">Menu</a></li>
+          <li><a href="#" class="text-light text-decoration-none">Order Online</a></li>
+          <li><a href="#" class="text-light text-decoration-none">Locations</a></li>
+          <li><a href="#" class="text-light text-decoration-none">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact -->
+      <div class="col-md-3">
+        <h5 class="text-warning mb-3">Contact Us</h5>
+        <p class="mb-1">📍 123 Flavor Street, Foodville</p>
+        <p class="mb-1">📞 (555) 123-4567</p>
+        <p>📧 support@freshbite.com</p>
+      </div>
+
+      <!-- Social -->
+      <div class="col-md-3">
+        <h5 class="text-warning mb-3">Follow Us</h5>
+       <i class="fa-brands fa-facebook"></i>
+       <i class="fa-brands fa-instagram"></i>
+       <i class="fa-brands fa-pinterest-p"></i>
+       <i class="fa-brands fa-twitter"></i>
+      </div>
+
+    </div>
+
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
